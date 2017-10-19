@@ -8,18 +8,9 @@ body {
 
 .jumbotron {
     text-align: center;
-    padding-bottom: 25px;
     background-image:url(/images/Background%20Basic%20PS.png);
     background-size: 100%;
     color: black;
-}
-
-.jumbotron h1{
-    padding-bottom: 25px;
-}
-
-.jumbotron p{
-    margin: 25px;
 }
 
 .container h2 {
