@@ -51,20 +51,6 @@ h4{
   color: white;
 }
 
-.carousel-inner{
-    height:60%;
-}
-
-.carousel-control-next {
-    height: 50%;
-    margin-top: 15%;
-}
-
-.carousel-control-prev {
-    height: 50%;
-    margin-top: 15%;
-}
-
 .container h3 {
     text-align: center;
 }
