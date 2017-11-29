@@ -2,8 +2,9 @@ body {
     background-color: grey;
     background-image: url(/images/Background%20Grey.jpg);
     background-size: cover;
+    background-size: auto;
 }
-
+    
 .navbar{
     background-color: #222;
     border-color: #080808;
