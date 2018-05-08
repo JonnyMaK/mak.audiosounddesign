@@ -7,21 +7,29 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
       
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
       
   </head>
   <body>
       <nav class="navbar navbar-inverse navbar-toggleable-md  bg-inverse">
-          <div class='container'>
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="index.html">Mak.Audio Sound Design</a>
-
+              <div class="DropDown">
+                  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="drodown-menu" aria-labelledby="dropDownMenu">
+                      <a class="dropdown-toggle navbar-brand" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mak.Audio Sound Design
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Live</a>
+                          <a class="dropdown-item" href="#">Studio</a>
+                      </div>
+                  </div>
+              </div>   
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                   <ul class="navbar-nav ml-auto">
                       <li class="nav-item">
-                          <a class="nav-link" href="index.html">Showreel</a>
+                          <a class="nav-link" href="showreel.html">Showreel</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="Portfolio.html">Portfolio</a>
@@ -33,12 +41,11 @@
                           <a class="nav-link" href="Contact.html">Contact</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="https://www.twitch.tv/jonnymakaudio" target="_blank">Twitch</a>
+                          <a class="nav-link" href="https://www.twitch.tv/jonnymakaudio/videos/all" target="_blank">Twitch</a>
                       </li>
 
                   </ul>
               </div>
-          </div>
       </nav>
           <div class="container">
                 <div class="text-center"><h1>About</h1></div>
@@ -46,14 +53,16 @@
       <div class="container">
           <div class="col-sm-12">
               <div class="container-fluid">
-                  <p>After nearly a decade as a studio and a live sound engineer, I'm finding that sound design gives me the creative outlet that I needed.<br>
-                      Completely self-taught in Sound Design I am having so much fun and revel in how much there is to constantly learn.  <br> <br>
-                      And for anyone interested in my Live sound and Studio credits, you can head over to <a href="https://www.strikingly.com/jonnymak">jonnymak.com</a>
+                  <p>After a decade as a studio and a live sound engineer, I'm finding that sound design gives me the creative outlet that I needed.<br>
+                      Currently I am working on developing my portfolio with redesigns and building simple games in UE4 for implementation with Wwise and FMOD.
+                      <br> <br>
+                      Feel free to check out my Twitch streams to see what I have been working on.
+                      <br>
                 </p>
               </div>
               <div class="row">
                   <div class="col-sm-3"></div>
-                  <div class="col-sm-6"><img src="images/Portrait.jpg" class="rounded img-fluid"></div>
+                  <div class="col-sm-6"><img src="../images/Portrait.jpg" class="rounded img-fluid"></div>
                   <div class="col-sm-3"></div>
               </div>
           </div>
